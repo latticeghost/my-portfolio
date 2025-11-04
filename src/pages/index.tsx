@@ -200,8 +200,8 @@ const Projects = () => {
       description:
         'This very portfolio, built with Next.js, React, and Tailwind CSS to showcase my skills and projects.',
       imgUrl: 'https://i.postimg.cc/Qt3xL0MK/portfolio-img-Url.png',
-      liveUrl: '#',
-      codeUrl: '#',
+      liveUrl: 'https://my-portfolio-sigma-ten-44awg46as2.vercel.app/',
+      codeUrl: 'https://github.com/latticeghost/my-portfolio',
     },
     {
       title: 'Landing Page',
@@ -266,7 +266,7 @@ const ContactForm = () => {
           <input
             type="hidden"
             name="_next"
-            value="https://latticeghost.github.io/landing-page/"
+            value="https://my-portfolio-sigma-ten-44awg46as2.vercel.app/"
           />
           {/* This disables the CAPTCHA. You can remove this line later if you want. */}
           <input type="hidden" name="_captcha" value="false" />
