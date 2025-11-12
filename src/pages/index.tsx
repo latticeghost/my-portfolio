@@ -214,7 +214,7 @@ const Projects = () => {
     {
       title: 'A Cybersecurity Odyssey',
       description: 'Another portfolio website to showcase my journey in cybersecurity.',
-      imgUrl: 'https://i.postimg.cc/Dfq1P59Q/AAz-XCkcc4Tw-Ih-Qc3p-TYVROym-FCv7Am-AZ7ya-Eubtp-RDSXVXc-Ga-Haz42t-Urc-m-Mz-VQp-Yy-Oasn3JHZ2Uzrxd-Hyc.png',
+      imgUrl: 'https://i.postimg.cc/s2M336PC/aso.png',
       liveUrl: 'https://sites.google.com/view/a-cyber-odyssey/home'
     },
     {
