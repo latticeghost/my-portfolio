@@ -128,7 +128,7 @@ type ProjectCardProps = {
   description: string;
   imgUrl: string;
   liveUrl: string;
-  codeUrl: string;
+  codeUrl?: string;
 };
 
 const ProjectCard = ({
@@ -167,6 +167,8 @@ const ProjectCard = ({
             <Eye size={18} />
             View Live
           </a>
+          {/* Add conditional check for codeUrl */}
+          {codeUrl && (
           <a
             href={codeUrl}
             target="_blank"
@@ -176,6 +178,7 @@ const ProjectCard = ({
             <Code size={18} />
             View Code
           </a>
+          )}
         </div>
       </div>
     </div>
