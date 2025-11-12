@@ -188,6 +188,14 @@ const Projects = () => {
 
   const myProjects = [
     {
+      title: 'Code Snippet Manager',
+      description:
+        'A comprehensive platform built with Next.js to manage, categorize, and display code snippets, supporting multiple languages and syntax highlighting.',
+      imgUrl: 'https://i.postimg.cc/HsgR6ZVV/csm.png',
+      liveUrl: 'https://code-snippet-manager-nu.vercel.app/',
+      codeUrl: 'https://github.com/latticeghost/code-snippet-manager',
+    },
+    {
       title: 'toolsTree',
       description:
         'Discover smart, high-performance utilities for developers, finance, content creation, and more.',
@@ -202,6 +210,12 @@ const Projects = () => {
       imgUrl: 'https://i.postimg.cc/Qt3xL0MK/portfolio-img-Url.png',
       liveUrl: 'https://my-portfolio-sigma-ten-44awg46as2.vercel.app/',
       codeUrl: 'https://github.com/latticeghost/my-portfolio',
+    },
+    {
+      title: 'A Cybersecurity Odyssey',
+      description: 'Another portfolio website to showcase my journey in cybersecurity.',
+      imgUrl: 'https://i.postimg.cc/Dfq1P59Q/AAz-XCkcc4Tw-Ih-Qc3p-TYVROym-FCv7Am-AZ7ya-Eubtp-RDSXVXc-Ga-Haz42t-Urc-m-Mz-VQp-Yy-Oasn3JHZ2Uzrxd-Hyc.png',
+      liveUrl: 'https://sites.google.com/view/a-cyber-odyssey/home'
     },
     {
       title: 'Landing Page',
